@@ -1,0 +1,19 @@
+@mixin circle ($bg: $bg-ct, $cm: $rt){
+    width: $cm;
+    height: $cm;
+    background: $bg;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button ($wb:$wb-c, $hb:$hb-c){
+    width: $wb;
+    height: $hb;
+    font-family: $f-Lb;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}

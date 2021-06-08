@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cookies {
+  background: rgba(25, 66, 119, 0.8);
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.cookies-app {
+  height: 50%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cookies-text {
+  font-size: 14px;
+  font-family: "Lato", regular;
+  color: #ffffff;
+}
+
+.cookies-button {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #194277;
+  width: 115px;
+  height: 30px;
+  font-family: "Lato", bold;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1539px) {
+  .cookies-app {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .cookies-app {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .cookies-app {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+  .cookies-app {
+    width: 70%;
+  }
+}
+
+.portfolio {
+  background: url(../assets/images/backgroung.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 85px;
+}
+
+.portfolio-header__wrapper {
+  height: 280px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-header__circle {
+  width: 180px;
+  height: 180px;
+  background: rgba(71, 148, 254, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-header__burger {
+  height: 45px;
+  width: 45px;
+  border: none;
+  background: #3679fd;
+  cursor: pointer;
+}
+
+.portfolio-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-content__heading {
+  width: 45%;
+  font-size: 50px;
+  font-family: "Lato", Black;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.portfolio-content__text {
+  width: 45%;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Lato", light;
+  text-align: center;
+}
+
+.portfolio-conteiner-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 75px 0;
+}
+
+.portfolio-button {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #3695ff;
+  width: 200px;
+  height: 60px;
+  font-family: "Lato", bold;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-arrow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  opacity: .5;
+}
+
+.circle-in {
+  width: 160px;
+  height: 160px;
+  background: rgba(75, 150, 254, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-in-light {
+  width: 150px;
+  height: 150px;
+  background: rgba(71, 148, 254, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-in-light-wite {
+  width: 130px;
+  height: 130px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1539px) {
+  .portfolio-content__heading {
+    font-size: 40px;
+  }
+  .portfolio-header__burger {
+    background: #367efe;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .portfolio-content__heading {
+    font-size: 35px;
+  }
+  .portfolio-header__burger {
+    background: #367efe;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .portfolio-content__heading {
+    font-size: 30px;
+  }
+  .portfolio-content__text {
+    font-size: 13px;
+  }
+  .portfolio-header__burger {
+    background: #3681fe;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+  .portfolio-content__heading {
+    width: 70%;
+    font-size: 25px;
+  }
+  .portfolio-content__text {
+    width: 70%;
+    font-size: 12px;
+  }
+  .portfolio-header__burger {
+    background: #3681fe;
+  }
+}
+/*# sourceMappingURL=style.css.map */
